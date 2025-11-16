@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "stats_custom_mod.dtd">
+<list enabled="true">
+
+	
+	 <player classId="103,95"> <!-- example -->
+        <add stat="maxHp" val="20000"/>
+    </player>
+
+    <!-- example 2:
+         Shillien Templar (106) и Spectral Dancer (107), само извън oly,
+         когато са екипирани с някое от оръжията 26160/26161/26162 – +2524 maxHP.
+    -->
+    <!-- <player classId="107,106" olyMode="non_oly_only">
+        <equipedWith itemId="26160,26161,26162">
+            <add stat="maxHp" val="2524"/>
+        </equipedWith>
+    </player> -->
+
+</list>
